@@ -39,3 +39,15 @@ Como mudar para 'main'
 
 
 (git push -u origin main) = empurra os commits do repositorio local para o repositorio no Github
+
+(clear) = clear the terminar of Git BASH
+
+Add a new branch =
+
+git checkout -b "new-bottom" = create new branch
+
+git add . = add all files to the branch
+
+git commit -m "new bottom" = create a commit "new bottom"
+
+git push origin new-bottom = and uploading the new branch to repository of Github
