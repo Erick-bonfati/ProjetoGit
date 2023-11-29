@@ -1,0 +1,41 @@
+git --version = mostra a versão do git
+
+Criamos uma pasta com um arquivo (README.MD) = markdown -> uma linguagem de marcação que usamos para escrever nossos readmes
+
+README.MD = Todos as informações sobre o arquivo que você precisa vai se encontrar aqui
+
+Depois vamos na pasta com o projeto e clicamos com botão direito em (git bash here)
+
+
+Comandos: 
+
+(git init) = inicia um repositorio git (vazio)
+
+apos isso o branch (master) ja cria tudo que é necessario pra gente usar na pasta do projeto ela vem com o nome .git
+
+tudo que estiver na pasta .git é tudo que vamos fazer no nosso projeto
+
+
+commit = são as versões do nosso arquivo
+
+(git add) = manda o arquivo para a area de stayding = é uma area que fica antes do commit, esperando para ser chamado
+
+
+(git add README.MD) = adicionamos o unico arquivo que temos neste projeto
+
+(git status) = mostra os arquivos a serem commitadas(enviadas)
+
+
+(git commit -m "nome commit") = aqui é como dar um titulo ao seu commit, assim nosso arquivo que estava na lista de espera foi commitado para dentro dentro deste commit
+
+o branch hoje em dia pode ser "master" ou "main"
+
+Como mudar para 'main'
+
+(git branch -M "main") = renomeia a branch que eu estou
+
+
+(git remote add origin (link pagina do projeto)) = criando uma conexão com repositorio local com o do github
+
+
+(git push -u origin main) = empurra os commits do repositorio local para o repositorio no Github
